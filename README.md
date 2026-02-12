@@ -1,97 +1,39 @@
-📌 Problem Statement
+# Decentralized Payment System for College Campus
+What is this project used for
+This project is a decentralized payment system designed for a college campus.
+It allows students to make digital payments for campus services such as canteen, events, or other facilities using blockchain technology instead of a centralized payment system.
+The main goal is to reduce dependency on a single authority and provide secure, transparent, and tamper-proof transactions within the campus.
 
-In a college campus, payments for canteen, events, library, and other services mostly depend on cash or centralized payment systems.
-These systems:
+# How to use the project.
+1) Connect a blockchain wallet (for example MetaMask) to the application
+2) Select the campus service or vendor
+3) Enter the payment amount
+4) Confirm the transaction from the wallet
+5)The transaction is recorded on the blockchain and the vendor receives the payment
 
-Depend on a single authority
+# Installation and Dependencies
+To run the project locally, follow these steps:
+$ Prerequisites
+1) Node.js
+2) npm
+3) MetaMask browser extension
+4) Git
 
-Are not transparent
+# BASH (STEPS) 
+git clone <repository-url>
+cd <project-folder>
+npm install
 
-Can fail due to server issues
+# Run blockchain locally (if using Hardhat) 
+npx hardhat node
+# Deploy smart contract 
+npx hardhat run scripts/deploy.js --network localhost
+# Start frontend 
+npm start
 
-Involve extra transaction fees
-
-💡 Solution
-
-This project introduces a Decentralized Payment System using blockchain technology for college campuses.
-
-Think of it like this 👶
-👉 Instead of one big cashier keeping all records, everyone shares the same notebook, and no one can secretly erase or change anything.
-
-Students can directly pay campus vendors without intermediaries, making transactions:
-
-Secure 🔐
-
-Transparent 👀
-
-Fast ⚡
-
-⚙️ How It Works (Simple)
-
-Student connects their wallet
-
-Selects campus service (canteen, event, etc.)
-
-Makes payment via blockchain
-
-Transaction gets permanently recorded
-
-Vendor receives payment instantly
-
-🚀 Features
-
-Decentralized transactions
-
-No middleman involvement
-
-Secure & tamper-proof payments
-
-Transparent transaction history
-
-Suitable for closed environments like college campuses
-
-🛠️ Tech Stack
-
-(Edit this section based on what you used)
-
-Blockchain: Ethereum
-
-Smart Contracts: Solidity
-
-Frontend: React.js
-
-Wallet: MetaMask
-
-Backend / Tools: Hardhat / Truffle
-
-Version Control: Git & GitHub
-
-🧪 Use Cases
-
-Canteen payments 🍔
-
-Event registrations 🎟️
-
-Library fines 📚
-
-Campus merchandise 🧢
-
-📷 Screenshots / Demo
-
-📈 Future Scope
-
-QR-based payments
-
-Mobile app integration
-
-Support for multiple campuses
-
-Low-gas or Layer-2 integration
-
-👨‍💻 Team / Author
-
-Rigved
-
-Engineering Student
-
-Hackathon Project
+# Feature Upgradation (Future Work)
+1) Integration with real crypto wallets
+2) Support for real cryptocurrencies
+3) Currency exchange integration using platforms like Binance
+4) Automatic conversion between crypto and local currency
+5) Improved user interface and transaction history

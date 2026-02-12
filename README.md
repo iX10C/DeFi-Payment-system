@@ -20,9 +20,9 @@ $ Prerequisites
 4) Git
 
 # BASH (STEPS) 
-1) "git clone <repository-url>"
-2) "cd <project-folder>"
-3) "npm install"
+1) git clone (repository-url)
+2) cd (project-folder)
+3) npm install
 
 # Run blockchain locally (if using Hardhat) 
 npx hardhat node
